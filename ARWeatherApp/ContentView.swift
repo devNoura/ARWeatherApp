@@ -64,9 +64,7 @@ struct searchBar: View{
             //search icon
             Image(systemName: "magnifyingglass")
                 .font(.system(size:30))
-            Image(systemName: "magnifyingglass")
-                .font(.system(size:30))
-            
+
             //search text
             TextField("Search", text:$searchText) { (value) in
                 print("typing in progress")
