@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "22C8CEAB-B6FB-42E1-8787-C58C62BCC768"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ARWeatherApp/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "22C8CEAB-B6FB-42E1-8787-C58C62BCC768 - 5a834a56c2bb88fb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ARWeatherApp.searchBar.body.getter : some"
-                  moduleName = "ARWeatherApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nouramohammadalthrowi/Desktop/AR%20Weather%20App/ARWeatherApp/ARWeatherApp/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "596">
-               </Location>
-               <Location
-                  uuid = "22C8CEAB-B6FB-42E1-8787-C58C62BCC768 - 130ca2ca210bcfed"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.TextField&lt;SwiftUI.Text&gt;)&gt; in ARWeatherApp.searchBar.body.getter : some"
-                  moduleName = "ARWeatherApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nouramohammadalthrowi/Desktop/AR%20Weather%20App/ARWeatherApp/ARWeatherApp/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "304">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2B4E559C-CA70-4809-A4DE-5E16881CAF05"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
