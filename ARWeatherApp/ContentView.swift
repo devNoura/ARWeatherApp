@@ -8,6 +8,7 @@
 import SwiftUI
 import ARKit
 import RealityKit
+import AVFoundation
 
 struct ContentView: View {
     @State var cityName: String = "London"
@@ -40,8 +41,10 @@ struct ContentView: View {
             })
             .onReceive(weatherManager.$recievedWeatherData, perform: {
                 (recievedData) in
-                temp = recievedData?.temperature ?? 0
-                condition = recievedData?.conditionName ?? "Nothing here"
+                if let latestData = recievedData{
+                    // pass to ARViewController
+                    ARViewController.shared.recievedWeatherData = latestData
+                }
             })
         }
       

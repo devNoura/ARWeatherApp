@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C98869229A371F100185E23 /* cloud.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2C98869129A371B600185E23 /* cloud.mp4 */; };
+		2CA0DA9829A20A3500477868 /* WeatherARModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0DA9729A20A3500477868 /* WeatherARModelManager.swift */; };
 		FA334A65299C2D2E00979B73 /* ARWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA334A64299C2D2E00979B73 /* ARWeatherAppApp.swift */; };
 		FA334A67299C2D2E00979B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA334A66299C2D2E00979B73 /* ContentView.swift */; };
 		FA334A69299C2D2F00979B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA334A68299C2D2F00979B73 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C98869129A371B600185E23 /* cloud.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cloud.mp4; sourceTree = "<group>"; };
+		2CA0DA9729A20A3500477868 /* WeatherARModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherARModelManager.swift; sourceTree = "<group>"; };
 		FA334A61299C2D2E00979B73 /* ARWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA334A64299C2D2E00979B73 /* ARWeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWeatherAppApp.swift; sourceTree = "<group>"; };
 		FA334A66299C2D2E00979B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA0DA9229A2060200477868 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0DA9429A206EC00477868 /* ARModel */,
+				FA334A72299CBCF100979B73 /* Weathermodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2CA0DA9429A206EC00477868 /* ARModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA334A79299D565300979B73 /* ARViewController.swift */,
+				2CA0DA9729A20A3500477868 /* WeatherARModelManager.swift */,
+			);
+			path = ARModel;
+			sourceTree = "<group>";
+		};
+		2CA0DA9929A2127A00477868 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		FA334A58299C2D2E00979B73 = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +89,14 @@
 		FA334A63299C2D2E00979B73 /* ARWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				FA334A7B29A00CEA00979B73 /* Info.plist */,
+				2C98869129A371B600185E23 /* cloud.mp4 */,
+				2CA0DA9929A2127A00477868 /* Videos */,
+				2CA0DA9229A2060200477868 /* Models */,
 				FA334A64299C2D2E00979B73 /* ARWeatherAppApp.swift */,
 				FA334A66299C2D2E00979B73 /* ContentView.swift */,
-				FA334A72299CBCF100979B73 /* Weathermodel */,
 				FA334A68299C2D2F00979B73 /* Assets.xcassets */,
+				FA334A7B29A00CEA00979B73 /* Info.plist */,
 				FA334A6A299C2D2F00979B73 /* Preview Content */,
-				FA334A79299D565300979B73 /* ARViewController.swift */,
 			);
 			path = ARWeatherApp;
 			sourceTree = "<group>";
@@ -147,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C98869229A371F100185E23 /* cloud.mp4 in Resources */,
 				FA334A6C299C2D2F00979B73 /* Preview Assets.xcassets in Resources */,
 				FA334A69299C2D2F00979B73 /* Assets.xcassets in Resources */,
 			);
@@ -165,6 +196,7 @@
 				FA334A7A299D565300979B73 /* ARViewController.swift in Sources */,
 				FA334A65299C2D2E00979B73 /* ARWeatherAppApp.swift in Sources */,
 				FA334A78299CC6AF00979B73 /* Weathermodel.swift in Sources */,
+				2CA0DA9829A20A3500477868 /* WeatherARModelManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +325,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARWeatherApp/Preview Content\"";
-				DEVELOPMENT_TEAM = US44CYNK83;
+				DEVELOPMENT_TEAM = RU23V6FJ49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARWeatherApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\"";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -325,14 +356,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARWeatherApp/Preview Content\"";
-				DEVELOPMENT_TEAM = US44CYNK83;
+				DEVELOPMENT_TEAM = RU23V6FJ49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARWeatherApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\"";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
